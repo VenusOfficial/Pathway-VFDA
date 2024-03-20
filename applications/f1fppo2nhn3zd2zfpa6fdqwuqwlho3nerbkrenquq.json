@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1fppo2nhn3zd2zfpa6fdqwuqwlho3nerbkrenquq",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "JossHua",
+    "Region": "Singapore",
+    "Industry": "Other",
+    "Website": "This a website link",
+    "Social Media": "@Joss",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "01",
+    "Brief history of your project and organization": "This a brief history of my project and organization",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "These some describe the data being stored onto Filecoin",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Tools and technical details",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "A sample of the data",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f0001，Hongkong\r\n2. f0002，Taiwan\r\n3. f0003，Singapore\r\n4. f0004，Shanghai\r\n5. f0005，Tokyo\r\n6. f0006，Semporna",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "100TiB",
+    "Single Size Dataset": "50TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-20 06:51:16.611940561 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1fppo2nhn3zd2zfpa6fdqwuqwlho3nerbkrenquq",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
