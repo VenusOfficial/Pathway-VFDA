@@ -6,7 +6,7 @@ The details of this Allocator pathway were initially described in an application
 
 Below is an summary of the key client requirements and processes that the Venus team will follow to oversee proper due diligence while insuring compliance to Fil+ guidelines for DataCap allocations.
 
-## Background:
+## Background
 
 ### What is Filecoin Plus?
 [Filecoin Plus](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0003.md) aims to maximize the amount of useful storage on Filecoin by adding a layer of social trust to the Network. [Clients](https://github.com/filecoin-project/filecoin-plus-client-onboarding#client) can apply to Notaries to receive [DataCap](https://github.com/filecoin-project/filecoin-plus-client-onboarding#datacap), which can be used to incentivize Storage Providers (SPs) to take storage deals. SPs who take deals that are compensated with DataCap receive a 10x to their quality adjusted power - increasing their probability of winning block rewards. Filecoin Plus puts power in the hands of Clients and incentivizes SPs to support real use case on the Network.
@@ -60,6 +60,7 @@ Any client looking to onboard a Public/Private Dataset to Filecoin can apply to 
 - 2nd allocation 25%
 - 3rd allocation 25%
 - 4th allocation 25%
+
 After successful on-boarding of a dataset as a trusted GitHub ID, users then become eligible to apply for 5PiB+ as needed to meet their demand.
 
 #### Subsequent allocation schedule:
