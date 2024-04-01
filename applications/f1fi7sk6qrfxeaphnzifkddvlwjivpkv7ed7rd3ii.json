@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1fi7sk6qrfxeaphnzifkddvlwjivpkv7ed7rd3ii",
+  "Issue Number": "5",
+  "Client": {
+    "Name": "NOAA",
+    "Region": "American Samoa",
+    "Industry": "Environment",
+    "Website": "https://www.mty.wang/home",
+    "Social Media": "yann",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Team: MTYW Team\r\n\r\nMaitian Yunwang (Hangzhou) Information Technology Co., Ltd. was established in 2020 and is a high-tech enterprise specializing in distributed data storage. It is a new force and driving force in the national new infrastructure construction team. The company takes identity authentication technology as its security infrastructure and building a distributed storage architecture as its technical roadmap, committed to independent research and application of trusted private cloud technology. The company's services are based on the Maitian Cloud Network distributed private cloud platform, utilizing advanced technologies such as big data and cloud computing to integrate government and enterprise business data, monitoring data, operational data, etc., to provide customers with end-to-end intelligent value-added services, driven by data.\r\n\r\n\r\nProject: Distributed Cloud Storage（ https://www.mty.wang/data-storage ）\r\n\r\nMNStar is a storage system independently developed by Maitian Cloud Network based on the architecture design and operational experience of object storage services. It is a stable, reliable, high-performance, and flexible elastic computing service provided by Maitian Cloud Network to customers. Customers can create and use cloud servers according to different business needs at any time, saving a lot of time and cost compared to IT hardware, while simplifying IT procurement, deployment, implementation, operation and maintenance work. Capable of building hundreds of EB level highly reliable, secure, low-cost, and scalable business systems for customers to meet diverse unstructured data storage needs.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data stored in Filecoin is from publicly available datasets with important information for environments via NOAA.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/noaa-ndfd/\r\ns3://noaa-ndfd-pds/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Weekly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f01934215, lijiang\r\n2. f01904929, Wuzhen",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "No"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "200",
+    "Single Size Dataset": "200",
+    "Replicas": 4,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-04-01 09:23:52.365787688 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1fi7sk6qrfxeaphnzifkddvlwjivpkv7ed7rd3ii",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
