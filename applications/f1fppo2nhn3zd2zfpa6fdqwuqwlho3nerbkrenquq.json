@@ -30,10 +30,10 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "100TiB",
-    "Single Size Dataset": "50TiB",
-    "Replicas": 4,
-    "Weekly Allocation": "100TiB"
+    "Total Requested Amount": "2TiB",
+    "Single Size Dataset": "1iB",
+    "Replicas": 2,
+    "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
     "State": "ReadyToSign",
@@ -52,7 +52,7 @@
       "Created At": "2024-03-29 01:26:01.620751687 UTC",
       "Updated At": "2024-03-29 01:26:01.620752716 UTC",
       "Active": true,
-      "Allocation Amount": "100TiB",
+      "Allocation Amount": "3TiB",
       "Signers": []
     }
   ]
