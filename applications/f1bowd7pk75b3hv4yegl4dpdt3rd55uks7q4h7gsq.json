@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "ID": "f1bowd7pk75b3hv4yegl4dpdt3rd55uks7q4h7gsq",
+  "Issue Number": "7",
+  "Client": {
+    "Name": "ENCODE Data Coordinating Center",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.etu1314.com/",
+    "Social Media": "tiger",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "01",
+    "Brief history of your project and organization": "We are specialized to assist Filecoin SP(Storage Provider) to store meaningful Data on Filecoin.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "They are all open and useful datasets that can be obtained publicly, .e.g. from Open Data on AWS. This application involves the following datasets:\r\n1. Encyclopedia of DNA Elements (ENCODE)\r\n\r\nfor detail of above datasets:\r\n1. The Encyclopedia of DNA Elements (ENCODE) Consortium is an international collaboration of research groups funded by the National Human Genome Research Institute (NHGRI). The goal of ENCODE is to build a comprehensive parts list of functional elements in the human genome, including elements that act at the protein and RNA levels, and regulatory elements that control cells and circumstances in which a gene is active. ENCODE investigators employ a variety of assays and methods to identify functional elements. The discovery and annotation of gene elements is accomplished primarily by sequencing a diverse range of RNA sources, comparative genomics, integrative bioinformatic methods, and human curation. Regulatory elements are typically investigated through DNA hypersensitivity assays, assays of DNA methylation, and immunoprecipitation (IP) of proteins that interact with DNA and RNA, i.e., modified histones, transcription factors, chromatin regulators, and RNA-binding",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "graphsplit",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "the sample can be accessed via aws cli command as below (aws cli tool should be installed beforehand):\r\naws s3 ls --no-sign-request s3://encode-public/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f02886969，Nemeng China\r\n2. f02930544, Nemeng China\r\n3. f02931712, Fushan China\r\n4. f02932299, Zhengzhou China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "500TiB",
+    "Single Size Dataset": "1024TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "300TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-24 09:24:25.632653959 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2024-04-24 09:27:02.446475396 UTC",
+    "Active Request ID": "f6377234-3773-4505-a931-56a7b76d1622",
+    "On Chain Address": "f1bowd7pk75b3hv4yegl4dpdt3rd55uks7q4h7gsq",
+    "Multisig Address": "false",
+    "edited": null
+  },
+  "Allocation Requests": [
+    {
+      "ID": "f6377234-3773-4505-a931-56a7b76d1622",
+      "Request Type": "First",
+      "Created At": "2024-04-24 09:24:25.632659785 UTC",
+      "Updated At": "2024-04-24 09:24:25.632660742 UTC",
+      "Active": false,
+      "Allocation Amount": "100TiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
+          "Created At": "2024-04-24 09:26:59.198000000 UTC",
+          "Message CID": "bafy2bzacebylz57maf7vg2o3srxxkxdaqkkzynjw3daxscxn7xcnnlkzwyar2"
+        }
+      ]
+    }
+  ]
+}
