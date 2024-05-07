@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "ID": "f1y76bzdmdczpghobjemia7rathc2vb2wg2aywopi",
+  "Issue Number": "10",
+  "Client": {
+    "Name": "NOAA",
+    "Region": "American Samoa",
+    "Industry": "Environment",
+    "Website": "https://www.mty.wang",
+    "Social Media": "yann",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "Team: MTYW Team\r\n\r\nMaitian Yunwang (Hangzhou) Information Technology Co., Ltd. was established in 2020 and is a high-tech enterprise specializing in distributed data storage. It is a new force and driving force in the national new infrastructure construction team. The company takes identity authentication technology as its security infrastructure and building a distributed storage architecture as its technical roadmap, committed to independent research and application of trusted private cloud technology. The company's services are based on the Maitian Cloud Network distributed private cloud platform, utilizing advanced technologies such as big data and cloud computing to integrate government and enterprise business data, monitoring data, operational data, etc., to provide customers with end-to-end intelligent value-added services, driven by data.\r\n\r\n\r\nProject: Distributed Cloud Storage（ https://www.mty.wang/data-storage ）\r\n\r\nMNStar is a storage system independently developed by Maitian Cloud Network based on the architecture design and operational experience of object storage services. It is a stable, reliable, high-performance, and flexible elastic computing service provided by Maitian Cloud Network to customers. Customers can create and use cloud servers according to different business needs at any time, saving a lot of time and cost compared to IT hardware, while simplifying IT procurement, deployment, implementation, operation and maintenance work. Capable of building hundreds of EB level highly reliable, secure, low-cost, and scalable business systems for customers to meet diverse unstructured data storage needs.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data stored in Filecoin is from publicly available datasets with important information for environments via NOAA.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "There will be more regional storage service providers.\r\nWe use go-graphsplit to split a large dataset into graph slices to make deals.\r\nstorage and retrieval use droplet",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/noaa-ndfd/\r\ns3://noaa-ndfd-pds/\r\nhttps://registry.opendata.aws/noaa-cdr-terrestrial/\r\ns3://noaa-cdr-leaf-area-index-fapar-pds/\r\nhttps://registry.opendata.aws/noaa-cdr-atmospheric/\r\ns3://noaa-cdr-aerosol-optical-thickness-pds/\r\nhttps://registry.opendata.aws/noaa-ndfd/\r\nhttps://registry.opendata.aws/noaa-ufs-s2s/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Weekly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Greater China",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f01934215, lijiang\r\n2. f01904929, Wuzhen\r\n3. f02057286, US\r\n4. f01915051, hangzhou\r\n5. f01901765, China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "100TiB",
+    "Single Size Dataset": "20TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-05-07 09:20:23.947860179 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2024-05-07 09:21:46.283718714 UTC",
+    "Active Request ID": "46f31e57-1e64-4706-8fe8-e50fd7ce0508",
+    "On Chain Address": "f1y76bzdmdczpghobjemia7rathc2vb2wg2aywopi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "46f31e57-1e64-4706-8fe8-e50fd7ce0508",
+      "Request Type": "First",
+      "Created At": "2024-05-07 09:20:23.947865004 UTC",
+      "Updated At": "2024-05-07 09:20:23.947865708 UTC",
+      "Active": false,
+      "Allocation Amount": "20TiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
+          "Created At": "2024-05-07 09:21:43.642000000 UTC",
+          "Message CID": "bafy2bzaceazal7vo3pvx7jbhk2u7qei4uxb35cqt6dh4ij33phcuapyi3a2ps"
+        }
+      ]
+    }
+  ]
+}
