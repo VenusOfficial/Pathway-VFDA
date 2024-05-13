@@ -1,4 +1,4 @@
-name: Large Dataset Datacap Application v1.2
+name: Large Dataset Datacap Application v1.3
 description: Clients should use this application form to request a DataCap allocation via a LDN for a dataset
 title: "[DataCap Application] <Organization> - <Project Name>"
 body:
@@ -7,25 +7,6 @@ body:
     value: |
       # Large Dataset Notary Application
       To apply for DataCap to onboard your dataset to Filecoin, please fill out the following form
-- type: dropdown
-  id: version
-  attributes:
-      label: Version
-      description: Schema File Version
-      options:
-        - 1
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: DataCap Applicant
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Project ID
-  validations:
-    required: true
 - type: markdown
   attributes:
     value: |
