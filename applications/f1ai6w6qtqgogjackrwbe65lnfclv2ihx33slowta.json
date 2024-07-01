@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1ai6w6qtqgogjackrwbe65lnfclv2ihx33slowta",
+  "Issue Number": "20",
+  "Client": {
+    "Name": "FileDrive Labs",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://filedrive.io",
+    "Social Media": "@FileDrive",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "FileDrive Labs has always defined ourselves as tool developers and infrastructure builders in the Filecoin ecosystem.    From 2019, we continuously focus on technical solutions and development based on IPFS protocol and the Filecoin network and do our best to contribute to the community.\r\nOver 80% of our team are qualified engineers, and half of them have more than 10-year development experience in multiple industries, including Communication, the Internet, and blockchain.\r\nSince 2020, we have participated in Slingshot Competition, become one of the top teams, and stored over 5 PiB useful data from public datasets to the Filecoin network.\r\nTo contribute to the Filecoin Community, we developed an open-source data prep tool Graphsplit, FIL+ project dashboard filplus.info and storage provider discovery platform filfind,info.\r\nBesides, we have also hold weekly online virtual events named FileDrive Meetup from March 2022, which aims to provide a platform for community members to grasp the latest trends of the Filecoin network and our work and research.\r\n\r\nPlease check the following links for more details.\r\n- GitHub: https://github.com/filedrive-team\r\n- Twitter: https://twitter.com/FileDrive1\r\n- Eventbrite: https://www.eventbrite.hk/o/filedrive-labs-42456337463\r\n- YouTube Channel: https://www.youtube.com/channel/UCxcZC1dtBUlQvZY7DX13W1w\r\n- Medium: https://medium.com/@FileDrive1",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "for example, smithsonian Open Access, the Smithsonian’s mission is the \"increase and diffusion of knowledge\" and has been collecting since 1846. The Smithsonian, through its efforts to digitize its multidisciplinary collections, has created millions of digital assets and related metadata describing the collection objects. On February 25th, 2020, the Smithsonian released over 2.8 million CC0 interdisciplinary 2-D and 3-D images, related metadata, and additionally, research data from researches across the Smithsonian. The 2.8 million \"open access\" collections are a subset of the Smithsonian’s 155 million objects, 2.1 million library volumes and 156,000 cubic feet of archival collections held in 19 museums, 9 research centers, libraries, archives and the National Zoo. Digitization of collections is ongoing.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Graphsplit",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/smithsonian-open-access/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "Not fully stored.\r\n\r\nf01114587\r\nf02002888\r\nf02003866\r\nf02003888\r\nf0522948\r\nf0867300\r\nf01228008\r\nf01228000\r\nf02002288\r\nf02104858\r\nf02006999",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1 PiB",
+    "Single Size Dataset": "250 TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "200 TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-07-01 05:50:02.875394944 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2024-07-01 05:51:37.191921731 UTC",
+    "Active Request ID": "221d8914-d449-4b0b-9f49-a58afaec11b4",
+    "On Chain Address": "f1ai6w6qtqgogjackrwbe65lnfclv2ihx33slowta",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "221d8914-d449-4b0b-9f49-a58afaec11b4",
+      "Request Type": "First",
+      "Created At": "2024-07-01 05:50:02.875402590 UTC",
+      "Updated At": "2024-07-01 05:50:02.875403831 UTC",
+      "Active": false,
+      "Allocation Amount": "200TiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
+          "Created At": "2024-07-01 05:51:34.743000000 UTC",
+          "Message CID": "bafy2bzacebo3z5vkpogzkz77eebyimkslpe4nauxqccrxoe6w2myndvu25zbc"
+        }
+      ]
+    }
+  ]
+}
