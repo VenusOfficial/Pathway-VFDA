@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "Team: MTYW Team\r\n\r\nMaitian Yunwang (Hangzhou) Information Technology Co., Ltd. was established in 2020 and is a high-tech enterprise specializing in distributed data storage. It is a new force and driving force in the national new infrastructure construction team. The company takes identity authentication technology as its security infrastructure and building a distributed storage architecture as its technical roadmap, committed to independent research and application of trusted private cloud technology. The company's services are based on the Maitian Cloud Network distributed private cloud platform, utilizing advanced technologies such as big data and cloud computing to integrate government and enterprise business data, monitoring data, operational data, etc., to provide customers with end-to-end intelligent value-added services, driven by data.\r\n\r\n\r\nProject: Distributed Cloud Storage（ https://www.mty.wang/data-storage ）\r\n\r\nMNStar is a storage system independently developed by Maitian Cloud Network based on the architecture design and operational experience of object storage services. It is a stable, reliable, high-performance, and flexible elastic computing service provided by Maitian Cloud Network to customers. Customers can create and use cloud servers according to different business needs at any time, saving a lot of time and cost compared to IT hardware, while simplifying IT procurement, deployment, implementation, operation and maintenance work. Capable of building hundreds of EB level highly reliable, secure, low-cost, and scalable business systems for customers to meet diverse unstructured data storage needs.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The data stored in Filecoin is from publicly available datasets with important information for environments via NOAA.",
@@ -40,8 +39,8 @@
     "Validated At": "2024-05-07 09:20:23.947860179 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
-    "Updated At": "2024-05-11 05:24:15.108482524 UTC",
-    "Active Request ID": "5e14e8c3-bdeb-4183-b6d9-918a988e0443",
+    "Updated At": "2024-07-13 10:45:19.223082495 UTC",
+    "Active Request ID": "a126cdee-f119-44b0-bb0e-95ba327356c0",
     "On Chain Address": "f1y76bzdmdczpghobjemia7rathc2vb2wg2aywopi",
     "Multisig Address": "false",
     "edited": false
@@ -76,6 +75,22 @@
           "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
           "Created At": "2024-05-11 05:24:10.300000000 UTC",
           "Message CID": "bafy2bzacebezzd6wt4i74i3gthfhuwwmcjakc2xbl4lmbryt4v7p5o6pywsfk"
+        }
+      ]
+    },
+    {
+      "ID": "a126cdee-f119-44b0-bb0e-95ba327356c0",
+      "Request Type": "Refill",
+      "Created At": "2024-05-11 06:00:05.358815136 UTC",
+      "Updated At": "2024-05-11 06:00:05.358817419 UTC",
+      "Active": false,
+      "Allocation Amount": "20TiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
+          "Created At": "2024-07-13 10:43:01.871000000 UTC",
+          "Message CID": "bafy2bzacebb3liub454fv54xxunynoe2dw5tzlnpbnknrw4lqnfaunavxm7hw"
         }
       ]
     }
