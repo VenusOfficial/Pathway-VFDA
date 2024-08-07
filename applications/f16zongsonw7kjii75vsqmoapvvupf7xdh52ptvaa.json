@@ -39,8 +39,8 @@
     "Validated At": "2024-07-01 06:03:30.163695609 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
-    "Updated At": "2024-08-04 09:12:14.079526529 UTC",
-    "Active Request ID": "5f320ac9-f436-421a-8235-6f7ce14b56c8",
+    "Updated At": "2024-08-07 05:39:14.286691116 UTC",
+    "Active Request ID": "9b920c30-8ec9-4206-80ed-191075b604f4",
     "On Chain Address": "f16zongsonw7kjii75vsqmoapvvupf7xdh52ptvaa",
     "Multisig Address": "false",
     "edited": false
@@ -107,6 +107,22 @@
           "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
           "Created At": "2024-08-04 09:12:11.582000000 UTC",
           "Message CID": "bafy2bzacecftqpwhbveiv3ofznku57x534jxbsrwidfhjpwqy2mxfqroj7swq"
+        }
+      ]
+    },
+    {
+      "ID": "9b920c30-8ec9-4206-80ed-191075b604f4",
+      "Request Type": "Refill",
+      "Created At": "2024-08-07 05:38:25.546831224 UTC",
+      "Updated At": "2024-08-07 05:38:25.546832693 UTC",
+      "Active": false,
+      "Allocation Amount": "200TiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
+          "Created At": "2024-08-07 05:39:11.351000000 UTC",
+          "Message CID": "bafy2bzacebdsgeuhebn7ryrvjtu5hu5qwf72m56w2cqapn3s5veharnyw7362"
         }
       ]
     }
