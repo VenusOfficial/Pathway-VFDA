@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3wxtso5eumhe5qubc6siqg275xnbjq7ltrcsj7wrg7aw7yb5wb2r2y47hrvwf4hqn3xjk7kjyhj2jgrhbq4ma",
+  "Issue Number": "40",
+  "Client": {
+    "Name": "Wuhan Nalai Film and Television Culture Media Co., Ltd.",
+    "Region": "China",
+    "Industry": "Arts & Recreation",
+    "Website": "http://www.whnlys.com/",
+    "Social Media": "http://www.whnlys.com/",
+    "Social Media Type": "WeChat",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Wuhan Nalai is a new media film and television production company. It's main business includes production and joint production, publicity and distribution, radio and television program production, performance brokerage, etc. It is committed to disseminating excellent traditional culture and creating high-quality new media film and television.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Trailers, samples, photos, recordings of the films produced by our company.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Graphsplit,I prefer offline transmission",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.whnlys.com/vod_show.asp?id=179\r\nhttp://www.whnlys.com/vod_show.asp?id=177\r\nhttp://www.whnlys.com/vod_show.asp?id=93",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Others",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01100139 Japan\r\nf01228000 Seoul, Seoul, KR\r\nf0522948  Singapore\r\nwill disclose in comment when sps are ready",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1PiB",
+    "Single Size Dataset": "250TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "250TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-08-16 08:02:06.172976995 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2024-08-16 08:05:49.257476038 UTC",
+    "Active Request ID": "a76aa79f-b385-4853-be5c-11be2c5cfa45",
+    "On Chain Address": "f3wxtso5eumhe5qubc6siqg275xnbjq7ltrcsj7wrg7aw7yb5wb2r2y47hrvwf4hqn3xjk7kjyhj2jgrhbq4ma",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "a76aa79f-b385-4853-be5c-11be2c5cfa45",
+      "Request Type": "First",
+      "Created At": "2024-08-16 08:02:06.172985305 UTC",
+      "Updated At": "2024-08-16 08:02:06.172986905 UTC",
+      "Active": false,
+      "Allocation Amount": "300TiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1mkeafrmvg3tiuugtcwpyumjbuyeoey3t2exa4ba",
+          "Created At": "2024-08-16 08:05:46.714000000 UTC",
+          "Message CID": "bafy2bzaceaf5brvu6odi6wjhid3433mqfdrkpxf67etcmiwtixxgctyvg422o"
+        }
+      ]
+    }
+  ]
+}
