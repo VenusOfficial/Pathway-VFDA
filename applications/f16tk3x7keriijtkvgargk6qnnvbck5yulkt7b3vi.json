@@ -35,12 +35,12 @@
     "Weekly Allocation": "500TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-08-09 09:23:54.729899842 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
-    "Updated At": "2024-08-12 02:34:31.440134968 UTC",
-    "Active Request ID": "bbb937ce-917c-4512-9d48-b0556aa8982a",
+    "Updated At": "2024-08-16 01:01:49.382468106 UTC",
+    "Active Request ID": "8ae3ce7a-c644-4d4c-8267-2f3deaba8f74",
     "On Chain Address": "f16tk3x7keriijtkvgargk6qnnvbck5yulkt7b3vi",
     "Multisig Address": "false",
     "edited": false
@@ -77,6 +77,15 @@
           "Message CID": "bafy2bzacecvpw2vier4sjdvmn4s4aigscrpnheokfdt4zm7ofxin33jrrdmq6"
         }
       ]
+    },
+    {
+      "ID": "8ae3ce7a-c644-4d4c-8267-2f3deaba8f74",
+      "Request Type": "Refill",
+      "Created At": "2024-08-16 01:01:49.382478069 UTC",
+      "Updated At": "2024-08-16 01:01:49.382479512 UTC",
+      "Active": true,
+      "Allocation Amount": "250TiB",
+      "Signers": []
     }
   ]
 }
