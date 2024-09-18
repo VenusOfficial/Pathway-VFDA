@@ -35,7 +35,7 @@
     "Weekly Allocation": "250TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2024-08-16 08:02:06.172976995 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
