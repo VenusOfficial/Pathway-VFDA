@@ -35,7 +35,7 @@
     "Weekly Allocation": "1.25PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-12-02 02:44:02.487802506 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "65953e4d-e93a-42f9-ba92-1e08d2d3b243",
     "On Chain Address": "f3wyjfnqf3or6gp4efwh6vpcywj74kjbvxe6qiq4eingvoupvgqzllisjumqcufxrkmwuktgccwzrpi7rn3vrq",
     "Multisig Address": "true",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
