@@ -35,7 +35,7 @@
     "Weekly Allocation": "600TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2024-12-05 02:06:37.102711027 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "9955b1dd-4127-4472-a02d-68d041351192",
     "On Chain Address": "f3wxtso5eumhe5qubc6siqg275xnbjq7ltrcsj7wrg7aw7yb5wb2r2y47hrvwf4hqn3xjk7kjyhj2jgrhbq4ma",
     "Multisig Address": "true",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
