@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3vabwdcxlp5aic4xkssaxrj2znyuu2tdsfcxsz3bdrekdpecsdquvqulemauswmya5usmitk5ppeowsc2rgia",
+  "Issue Number": "61",
+  "Client": {
+    "Name": "Shanghai Pintu Network Technology Co., Ltd.",
+    "Region": "China",
+    "Industry": "Arts & Recreation",
+    "Website": "https://www.58pic.com/",
+    "Social Media": "https://weibo.com/58pic",
+    "Social Media Type": "WeChat",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Qiantu.com was founded in 2013 and is affiliated to Shanghai Pintu Network Technology Co., Ltd. As an excellent domestic design office creative service platform, Qiantu.com has tens of millions of genuine materials, covering 18 scenarios such as graphic advertising, design elements, backgrounds, e-commerce Taobao, video templates, music and sound effects, high-definition picture libraries, artistic characters, decoration and decoration, web UI, new media pictures, illustrations and paintings, product industry, PPT templates, Word templates, Excel templates, resume templates, and fonts. In addition, Qiantu.com also provides a variety of AI tools, such as intelligent cutouts and cloud design, to improve design efficiency.No one",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Pictures, templates, design elements, e-commerce materials, industry-related data, etc.\nFormat: JPG, PNG, MP4, MP3, PPT, etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "First, we will periodically extract the required images and videos from our server, and then package them on a separate server to generate CAR files and CIDs for storage providers (SPs) to download and use. After packaging, the SP will provide a list of files and the corresponding relationship between the sector ID. The community and we can use this file list to refer to and view the files and corresponding sector information on the website.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.58pic.com/newpic/44555200.html\nhttps://www.58pic.com/newpic/71269826.html\nhttps://www.58pic.com/newpic/71244484.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1, f02003777, Vietnam\n2, f02006966, Singapore\n3, f02006988, United States\n4, f02006998, Thailand",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "2.5PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-12 05:24:07.341124044 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2025-03-12 05:24:07.341119909 UTC",
+    "Active Request ID": "e1d9d7cc-89bd-4a3f-820b-1cab3dcaa4d0",
+    "On Chain Address": "f3vabwdcxlp5aic4xkssaxrj2znyuu2tdsfcxsz3bdrekdpecsdquvqulemauswmya5usmitk5ppeowsc2rgia",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "e1d9d7cc-89bd-4a3f-820b-1cab3dcaa4d0",
+      "Request Type": "First",
+      "Created At": "2025-03-12 05:19:22.872865478 UTC",
+      "Updated At": "2025-03-12 05:19:22.872866293 UTC",
+      "Active": false,
+      "Allocation Amount": "1 PiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1wzmrjlhu244jyjlpsjlyhp7en35ue4wpwbfsv3y",
+          "Created At": "2025-03-12 05:24:04.145000000 UTC",
+          "Message CID": "bafy2bzacedwqaqcxj5ofn2plukjno3pgthmmj2dywb3nqos7ovcxmqio2ckf4"
+        }
+      ]
+    }
+  ]
+}
