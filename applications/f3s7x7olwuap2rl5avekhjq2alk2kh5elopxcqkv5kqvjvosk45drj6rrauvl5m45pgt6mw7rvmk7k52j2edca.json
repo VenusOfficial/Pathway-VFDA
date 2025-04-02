@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3s7x7olwuap2rl5avekhjq2alk2kh5elopxcqkv5kqvjvosk45drj6rrauvl5m45pgt6mw7rvmk7k52j2edca",
+  "Issue Number": "63",
+  "Client": {
+    "Name": "Payititi Technology Co., Ltd.",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "https://www.payititi.com/",
+    "Social Media": "https://github.com/payititi2100",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "PaiTiTi provides one-stop services for querying, downloading, and accessing nearly 100,000 public datasets via APIs, covering 360+ industries with tools for data exploration and application. Supports online algorithm/model training with code management, execution environments, and flexible computing power to enhance efficiency and reduce costs. Provides full-process AI data management, handling multimodal data (text, images, audio, 3D) with visualization, indicator extraction/correction, API access, and training to streamline AI workflows.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "100,000 public datasets spanning 360+ industries, including text, images, audio, video, and 3D data, optimized for AI training.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We regularly back up the data used for AI training from our servers to another set of storage devices. On the storage servers, we package the data to generate CAR files and their corresponding CIDs for storage providers (SPs) to download. After the SPs complete data sealing, they provide the mapping between the file list and sector IDs. Using these mappings, we can request query and retrieval services from the SPs. Simultaneously, the community can access and view this public data, ensuring its transparency and availability.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.payititi.com/opendatasets/show-35143.html\nhttps://www.payititi.com/opendatasets/show-26608.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f02002555，California, USA\n2. f02002333，Seoul, South Korea\n3. f03519255，Shenzhen, China\n4. f03519270, Hongkong, China\n5. f02003699, London, England",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15PiB",
+    "Single Size Dataset": "3",
+    "Replicas": 5,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-04-02 00:58:09.320846397 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2025-04-02 00:58:09.320842730 UTC",
+    "Active Request ID": "14595c90-bc11-43e7-acae-26c973997864",
+    "On Chain Address": "f3s7x7olwuap2rl5avekhjq2alk2kh5elopxcqkv5kqvjvosk45drj6rrauvl5m45pgt6mw7rvmk7k52j2edca",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "14595c90-bc11-43e7-acae-26c973997864",
+      "Request Type": "First",
+      "Created At": "2025-04-02 00:56:23.771030271 UTC",
+      "Updated At": "2025-04-02 00:56:23.771031351 UTC",
+      "Active": false,
+      "Allocation Amount": "1 PiB",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1wzmrjlhu244jyjlpsjlyhp7en35ue4wpwbfsv3y",
+          "Created At": "2025-04-02 00:58:06.665000000 UTC",
+          "Message CID": "bafy2bzaceddfhwj677rqxhv4iopclavwxn3b6thjmqevqxajt74cxmy23o76k"
+        }
+      ]
+    }
+  ]
+}
