@@ -35,11 +35,11 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-06-23 09:31:03.172480830 UTC",
+    "State": "Granted",
+    "Validated At": "2025-06-23 09:37:08.989685721 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
-    "Updated At": "2025-06-23 09:31:03.172484235 UTC",
+    "Updated At": "2025-06-23 09:37:08.989682179 UTC",
     "Active Request ID": "23852a97-9ac4-46af-a3a9-a0e82ee70890",
     "On Chain Address": "f3vabwdcxlp5aic4xkssaxrj2znyuu2tdsfcxsz3bdrekdpecsdquvqulemauswmya5usmitk5ppeowsc2rgia",
     "Multisig Address": "false",
@@ -83,9 +83,16 @@
       "Request Type": "Refill",
       "Created At": "2025-06-23 09:31:03.172488094 UTC",
       "Updated At": "2025-06-23 09:31:03.172488736 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1125899906842624B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1wzmrjlhu244jyjlpsjlyhp7en35ue4wpwbfsv3y",
+          "Created At": "2025-06-23 09:37:06.239000000 UTC",
+          "Message CID": "bafy2bzacebcnavem4i3ibzh7xk5wntljed4h4oekk5sj55wups462ltsuokik"
+        }
+      ]
     }
   ]
 }
