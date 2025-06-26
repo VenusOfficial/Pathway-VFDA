@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f3xg7evtc4qmo22osmzzyewibk7j24slzm6ksze3kvlzfvpqmhb7qlvo27t4goqgo7v4modcrf6em7qlovpsnq",
+  "Issue Number": "71",
+  "Client": {
+    "Name": "AVQASoundOfficial",
+    "Region": "Malaysia",
+    "Industry": "Education & Training",
+    "Website": "https://gewu-lab.github.io/MUSIC-AVQA/",
+    "Social Media": "Nil",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "MUSIC-AVQA, focused on teaching AI to understand both sound and vision. It introduced a large dataset of music performance videos with questions, allowing AI to learn how to answer by looking and listening. The project gained recognition at a top AI conference (CVPR) and was updated in 2023 to improve fairness. We continues to explore how machines can better understand the world through multiple senses.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The MUSIC-AVQA dataset stores video clips of musical performances, audio features, visual features, and question-answer annotations. These files are currently hosted on platforms, Google Drive.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "To store the data, it is first uploaded and given a unique Content Identifier (CID). The data is then split into chunks, encoded, and copied multiple times for reliability, before being sealed into storage sectors. Storage providers take care of the process, including the pre-commit, sealing, and final commit steps, and they continuously provide cryptographic proofs to verify the data remains intact. The CID can later be used to find, decode, and retrieve the original data.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://drive.google.com/drive/folders/1WAryZZE0srLIZG8VHl22uZ3tpbGHtsrQ",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China, North America, Africa, South America, Europe",
+    "How will you be distributing your data to storage providers": "I don't know yet, Venus built-in data transfer, Lotus built-in data transfer, IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03540040 US\n2. f03545863 Philippines\n3. f03557685 Singapore\n4. f03602381 Vietnam\n5. f03612782 Philippines",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "9 PiB",
+    "Single Size Dataset": "1.8 PiB",
+    "Replicas": 5,
+    "Weekly Allocation": "1 PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-06-26 06:03:23.679143792 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f3xg7evtc4qmo22osmzzyewibk7j24slzm6ksze3kvlzfvpqmhb7qlvo27t4goqgo7v4modcrf6em7qlovpsnq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
