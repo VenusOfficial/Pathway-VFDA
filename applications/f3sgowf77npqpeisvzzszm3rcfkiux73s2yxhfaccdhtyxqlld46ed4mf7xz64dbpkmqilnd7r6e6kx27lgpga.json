@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3sgowf77npqpeisvzzszm3rcfkiux73s2yxhfaccdhtyxqlld46ed4mf7xz64dbpkmqilnd7r6e6kx27lgpga",
+  "Issue Number": "74",
+  "Client": {
+    "Name": "Epic Kitchen Official",
+    "Region": "Indonesia",
+    "Industry": "Education & Training",
+    "Website": "https://epic-kitchens.github.io/2025",
+    "Social Media": "Nil",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "EPIC-KITCHENS, study daily activities from a first-person view, using head-mounted cameras in real kitchens. The dataset has grown over the years and now includes over 100 hours of video, thousands of labeled actions, and detailed object interactions. It helps researchers train and test AI models in areas like action recognition and video understanding.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Dataset include egocentric video recordings and rich annotations, forming a benchmark designed for evaluating action recognition, anticipation, and object interaction in untrimmed, real-world kitchen environments. This dataset supports cutting-edge machine learning research in areas like computer vision, robotics, and human–AI interaction.\n\nContent Types:\n1. High-resolution first-person videos capturing natural, unscripted kitchen activities across diverse users and environments. (Approximate 1 PiB)\n2. Temporal annotations of over 90,000 action segments, marking the start and end of daily activities. (Approximate 400 TiB)\n3. Metadata including narrations, object labels, action classes, and training/testing splits. (Approximate 500 TiB)\n4. Derived data such as optical flow, audio transcripts, object masks (from VISOR), and model benchmark results. (Approximate 500 TiB)\n\nEach SP will store approximately 2.4 PiB, totaling 12 PiB across the network.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "To store the data, it is first uploaded and assigned a unique Content Identifier (CID). The data is then divided into smaller pieces, encoded, and replicated multiple times to ensure reliability. These pieces are sealed into storage sectors. Storage providers manage the full process, including pre-commitment, sealing, and final commitment, and they regularly submit cryptographic proofs to confirm the data’s integrity over time. Using the CID, the original data can later be located, decoded, and retrieved.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://epic-kitchens.github.io/2025",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Africa, Greater China, Europe, South America, North America",
+    "How will you be distributing your data to storage providers": "I don't know yet, HTTP or FTP server, IPFS, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03541949 US\n2. f03550179 Philippines\n3. f03561606 Hongkong\n4. f03604522 Vietnam\n5. f03614364 Philippines",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "2.4",
+    "Replicas": 5,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-06-30 09:11:50.508691090 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2025-06-30 09:11:50.508685879 UTC",
+    "Active Request ID": "495ab4d7-a657-4ef3-9c60-bb8f3b4ebdea",
+    "On Chain Address": "f3sgowf77npqpeisvzzszm3rcfkiux73s2yxhfaccdhtyxqlld46ed4mf7xz64dbpkmqilnd7r6e6kx27lgpga",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "495ab4d7-a657-4ef3-9c60-bb8f3b4ebdea",
+      "Request Type": "First",
+      "Created At": "2025-06-30 09:08:46.056738821 UTC",
+      "Updated At": "2025-06-30 09:08:46.056739779 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1wzmrjlhu244jyjlpsjlyhp7en35ue4wpwbfsv3y",
+          "Created At": "2025-06-30 09:11:41.184000000 UTC",
+          "Message CID": "bafy2bzacead65xliyihpaltqlb655zol2imr77qsnn6kfiznllrmp64lzxyaq"
+        }
+      ]
+    }
+  ]
+}
