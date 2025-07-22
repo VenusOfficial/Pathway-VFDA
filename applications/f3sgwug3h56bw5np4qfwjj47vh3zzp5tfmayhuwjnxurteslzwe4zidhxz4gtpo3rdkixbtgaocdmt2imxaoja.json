@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f3sgwug3h56bw5np4qfwjj47vh3zzp5tfmayhuwjnxurteslzwe4zidhxz4gtpo3rdkixbtgaocdmt2imxaoja",
+  "Issue Number": "76",
+  "Client": {
+    "Name": "Marine Copernicus - Biogeochemistry Analysis Data",
+    "Region": "Australia",
+    "Industry": "Environment",
+    "Website": "https://marine.copernicus.eu/",
+    "Social Media": "https://x.com/cmems_eu",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Marine Copernicus, provides free ocean data globally. It started with the MyOcean project (2008–2014) and became operational in 2015 under Mercator Ocean International, a French non-profit. It offers real-time and historical data on ocean physics, sea ice, and biogeochemistry, supporting EU policies and the Blue Economy.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Marine Copernicus stores global ocean biogeochemical data in the Filecoin. It includes daily and monthly parameters like chlorophyll, nutrients, oxygen, pH, and CO2, covering the global ocean at 0.25° resolution across 50 depth levels.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "As a data preparer, I would begin by segmenting the global ocean biogeochemical data into smaller, manageable chunks. Each chunk is encrypted for security and distributed across multiple storage nodes to ensure reliability and redundancy. Before distribution, the data is uploaded to the network, where it receives a unique Content Identifier (CID) for tracking. The system manages the entire process, from data preparation and encryption to storage and verification, generating cryptographic proofs to confirm data integrity. Using the CID, the data can be easily retrieved, decrypted, and accessed when needed.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_BGC_001_028/files?subdataset=cmems_mod_glo_bgc-car_anfc_0.25deg_P1D-m_202311\nhttps://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_BGC_001_028/files?subdataset=cmems_mod_glo_bgc-co2_anfc_0.25deg_P1D-m_202311\nhttps://data.marine.copernicus.eu/product/GLOBAL_ANALYSISFORECAST_BGC_001_028/files?subdataset=cmems_mod_glo_bgc-nut_anfc_0.25deg_P1D-m_202311",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, South America, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "IPFS, HTTP or FTP server,Lotus built-in data transfer, Venus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02003699 Russia\n2.f02002666 Hongkong, China\n3.f02002555 California, USA\n4.f02002333 Seoul, South Korea\n5.f02002200 Changsha，China\n6.f03519247  Russia\n7.f03543055  Russia\n8.f03551138 US\n9.f03590163 Korea\n10.f03605957 Hongkong\n\n",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12 PiB",
+    "Single Size Dataset": "1.2 PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1 PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-22 00:54:05.891122342 UTC",
+    "Validated By": "VenusOfficial",
+    "Active": true,
+    "Updated At": "2025-07-22 00:54:05.891118151 UTC",
+    "Active Request ID": "105dcf3b-d887-4584-9153-72c1b016ac0d",
+    "On Chain Address": "f3sgwug3h56bw5np4qfwjj47vh3zzp5tfmayhuwjnxurteslzwe4zidhxz4gtpo3rdkixbtgaocdmt2imxaoja",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "105dcf3b-d887-4584-9153-72c1b016ac0d",
+      "Request Type": "First",
+      "Created At": "2025-07-22 00:52:04.106661651 UTC",
+      "Updated At": "2025-07-22 00:52:04.106662467 UTC",
+      "Active": false,
+      "Allocation Amount": "1704243023052 B",
+      "Signers": [
+        {
+          "Github Username": "VenusOfficial",
+          "Signing Address": "f1wzmrjlhu244jyjlpsjlyhp7en35ue4wpwbfsv3y",
+          "Created At": "2025-07-22 00:54:03.336000000 UTC",
+          "Message CID": "bafy2bzacebyspgl4f5vgyo46a4ukbrtams4srfyo7jvll5friza46aerjlffg"
+        }
+      ]
+    }
+  ]
+}
