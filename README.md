@@ -1,6 +1,6 @@
 # Pathway-VFDA
 
-Contact: venus@ipfsforce.com or **@Joss-Venus** on Filecoin Slack.
+Contact: venus@ipfsforce.com or **@Venus_Official** on Filecoin Slack.
 
 The details of this Allocator pathway were initially described in an application to the Fil+ Governance Team in December 2023: [LINK](https://github.com/filecoin-project/notary-governance/issues/1035).
 
@@ -31,44 +31,33 @@ VFDA is a pathway maintained by Venus team as an Allocator, and clients can appl
 Client can get the DataCaps of VDFA on the [Registry](https://github.com/VenusOfficial/Pathway-VFDA/issues/new/choose), and they need to initialize their on chain address by sending a small amount of FIL to their address.
 
 #### Current Scope:
-Any client looking to onboard a Public/Private Dataset to Filecoin can apply to this allocator pathway.
+Any client looking to onboard a Public Dataset to Filecoin can apply to this allocator pathway.
 
 #### Minimum client requirements:
-- At least 2 sealed copies of a dataset, stored with 2 separate Storage Provider entities, each in different regional locations(city).
-- The dataset is made readily retrievable on the network.
-- Clients disclose their storage provider partners upfront.
+- At least 4 sealed copies of a dataset, stored with 4 separate Storage Provider entities, at least in 2 different regional locations(city).
+- The dataset is made readily retrievable on the network. And the retrieval rate should not be less than 75%.
+- Clients disclose their storage provider partners upfront. VPN for storage provider is not allowed.
 - Clients are required to apply for DataCap using the following GitHub repo [LINK](https://github.com/VenusOfficial/Pathway-VFDA/issues/new/choose).
 
 #### Once an application is submitted, diligence to be completed on clients includes:
-##### New User Check
-- Is this a completely new GitHub ID?
-- Is this the first time this GitHub ID has applied for DataCap in this or other allocotor pathways?
+We uphold a strict, multi-step verification process to guarantee that only eligible entities join our program. The onboarding procedure involves submitting legal formation documents, independently verifying all submitted information, and conducting detailed client interviews to confirm authenticity. Clients are required to maintain strong data retrieval performance, ensure fair distribution of deals across storage providers in multiple regions, and work exclusively with us. All procedures and related documentation will be made publicly available on GitHub for FIL+ and community scrutiny.
 
-##### Client ID Check (KYC)
-- All applicants will be asked if they are willing to complete a free know your customer (KYC) check to confirm themself as a human user associated with a specific GitHub ID.
-- Users are asked to validate their ID and livelihood via a link on [filplus.storage](filplus.storage).
-
-##### Storage Provider (SP) Usage Check
-- Clients of this pathway will have access to SP Marketplace.
-- Clients are also free to select their own SPs.
-
-##### Allocation Tranche Schedule to clients:
-- As mentioned above, each application will have the GitHub ID assessed to confirm if they are a new GitHub ID or first time user to the allocator.
 
 ### The allocation schedule for trusted users is:
-- 1st allocation 25%
-- 2nd allocation 25%
-- 3rd allocation 25%
-- 4th allocation 25%
+First allocation max 5%, but no more than 256TiB; 
+Second max 10%; 
+Third max 15%; 
+Fourth max 20%; 
+Fifth and there after max 25%;
+AND No allocation can be bigger than 2x of the previous one. 
 
-After successful on-boarding of a dataset as a trusted GitHub ID, users then become eligible to apply for 5PiB+ as needed to meet their demand.
+
 
 #### Subsequent allocation schedule:
 - When clients use up > 75% of the prior DataCap allocation, a request for additional DataCap in the form of the next tranche is automatically kicked off (via the subsequent allocation bot). The allocator team will set an SLA (Service Level Agreement) to keep up with allocation review and comment on bot messages within 3 days.
 
 #### Compliance check mechanisms for the client applications:
-- After each allocation we will manually review the on-chain deal making activity of the applicant to confirm compliance mostly relying on the AC Bot, which runs weekly, to identify non-compliance of deal making, distribution and retrievals and that information will be used to drive action on applications. The bot will be set up to automatically close applications after several allocations if thresholds are not met.
-- At any point if clients are caught providing fake or misleading information about themselves or their SP partners, we will close any open applications and add the GitHub user IDs and miner IDs involved and block them from future participation in the allocator.
+We safeguard program integrity through a thorough due diligence process that ensures all data and clients comply with program guidelines as well as applicable local and regional regulations. Clients are required to submit detailed documentation covering their data preparation methods and dataset attributes, including type and volume. Our ongoing verification includes random audits of data ownership via content sampling, deal validation through mapping file analysis, and Payload CID cross-checks utilizing Filecoin tools. We maintain complete audit records to guarantee transparency and accountability, which include client-submitted documents, verified compliance agreements, representative mapping file samples, detailed verification logs, and monitoring results.
 
 #### Disputes/Appeals:
 - For any disputes between our allocator and a client, hereby termed appeal(s), we will source the appeals through the [VFDA Appeals Form](https://docs.google.com/forms/d/1ihy6HsxJlHmoThrMhVsvHFumoQ1BHIKYCNkEQIlM7UU/edit?pli=1) where all our clients can submit an appeal.
