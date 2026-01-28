@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ibegwztfuqbtgwgnr43oxclfycjttzrjk7xd2ui",
+  "Issue Number": "46",
+  "Client": {
+    "Name": "Hantang Cloud",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.htymeta.com/",
+    "Social Media": "http://www.htymeta.com/contact.html",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Hantang Cloud is a new-type comprehensive technology service provider in the cloud technology sector, established jointly by state-owned assets and the Ya'an government.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Hantang Cloud is a GPU cloud computing platform where users can rent highly cost-effective GPU cloud hosts on demand, along with attentive and efficient customer support. We are dedicated to providing high-quality hardware and software facilities for government and enterprise clients, technology, finance, AI, cloud gaming, big data, and more, aiming to save users time and money.\r\n\r\nCloud Era Cloud Monitoring Project:\r\nCurrently, we are a professional digital upgrade service provider and operator for the retail industry. Our focus is on providing technological upgrades and solutions to address pain points in China's 5.4 trillion yuan physical retail market, offering integrated marketing, transaction, management, and revenue enhancement solutions for convenience stores and branded chain enterprises.\r\n\r\nCloud Era, in collaboration with Sichuan Hantang Cloud Distributed Storage Technology Co., Ltd., is working on a product solution for the digital transformation of physical retail convenience stores. We are creating the first batch of AI-enabled stores by integrating artificial intelligence with retail stores. This involves training AI with large amounts of data to prepare for future AI-managed stores.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.gdysd.cn/\r\nhttp://www.gdysd.cn/h-col-103.html\r\nhttp://www.gdysd.cn/h-col-104.html",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Others",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03178077 US\r\nf03178144 SG\r\nf03178150 JP",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2.0PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "600TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-08-19 06:37:17.485420395 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ibegwztfuqbtgwgnr43oxclfycjttzrjk7xd2ui",
+    "Multisig Address": "true",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
