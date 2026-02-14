@@ -30,12 +30,12 @@
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
     "Total Requested Amount": "12PiB",
-    "Single Size Dataset": "2.4",
+    "Single Size Dataset": "2.4PiB",
     "Replicas": 5,
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-06-30 09:11:50.508691090 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
