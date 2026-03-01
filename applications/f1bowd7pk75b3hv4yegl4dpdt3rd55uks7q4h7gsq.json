@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "01",
     "Brief history of your project and organization": "We are specialized to assist Filecoin SP(Storage Provider) to store meaningful Data on Filecoin.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "They are all open and useful datasets that can be obtained publicly, .e.g. from Open Data on AWS. This application involves the following datasets:\r\n1. Encyclopedia of DNA Elements (ENCODE)\r\n\r\nfor detail of above datasets:\r\n1. The Encyclopedia of DNA Elements (ENCODE) Consortium is an international collaboration of research groups funded by the National Human Genome Research Institute (NHGRI). The goal of ENCODE is to build a comprehensive parts list of functional elements in the human genome, including elements that act at the protein and RNA levels, and regulatory elements that control cells and circumstances in which a gene is active. ENCODE investigators employ a variety of assays and methods to identify functional elements. The discovery and annotation of gene elements is accomplished primarily by sequencing a diverse range of RNA sources, comparative genomics, integrative bioinformatic methods, and human curation. Regulatory elements are typically investigated through DNA hypersensitivity assays, assays of DNA methylation, and immunoprecipitation (IP) of proteins that interact with DNA and RNA, i.e., modified histones, transcription factors, chromatin regulators, and RNA-binding",
@@ -36,12 +35,12 @@
     "Weekly Allocation": "300TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ReadyToSign",
     "Validated At": "2024-04-24 09:24:25.632653959 UTC",
     "Validated By": "VenusOfficial",
     "Active": true,
-    "Updated At": "2024-04-24 09:27:02.446475396 UTC",
-    "Active Request ID": "f6377234-3773-4505-a931-56a7b76d1622",
+    "Updated At": "2024-05-24 09:00:03.996991940 UTC",
+    "Active Request ID": "3cafdc3f-52e1-4806-9279-f07b68f9113b",
     "On Chain Address": "f1bowd7pk75b3hv4yegl4dpdt3rd55uks7q4h7gsq",
     "Multisig Address": "false",
     "edited": null
@@ -62,6 +61,15 @@
           "Message CID": "bafy2bzacebylz57maf7vg2o3srxxkxdaqkkzynjw3daxscxn7xcnnlkzwyar2"
         }
       ]
+    },
+    {
+      "ID": "3cafdc3f-52e1-4806-9279-f07b68f9113b",
+      "Request Type": "Refill",
+      "Created At": "2024-05-24 09:00:03.997000732 UTC",
+      "Updated At": "2024-05-24 09:00:03.997002357 UTC",
+      "Active": true,
+      "Allocation Amount": "300TiB",
+      "Signers": []
     }
   ]
 }
